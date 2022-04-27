@@ -1,7 +1,12 @@
 import React, { useState } from "react";
+import Reviews from "./components/Reviews";
 
 const App = () => {
-  return <></>;
+  return (
+    <>
+      <Reviews />
+    </>
+  );
 };
 
 export default App;
